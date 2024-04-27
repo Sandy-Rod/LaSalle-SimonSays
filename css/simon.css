@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+main button {
+    height: 200px;
+}
+
+main button:nth-child(1) {
+    background-color: red;
+}
+
+main button:nth-child(2) {
+    background-color: green;
+}
+
+main button:nth-child(3) {
+    background-color: yellow;
+}
+
+main button:nth-child(4) {
+    background-color: blue;
+}
